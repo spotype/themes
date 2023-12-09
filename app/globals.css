@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url(); */
+* {
+  font-family: "Signika", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  font-family: "Signika", sans-serif;
+  /* font-family: "Pacifico", cursive; */
+}
+
+html.dark .tick {
+  filter: brightness(0) invert(1);
+}
+
+html.dark .ticks {
+  filter: invert(1);
+}
+
+.svgs {
+  filter: brightness(100%) invert(0);
+}
+
+html.dark .tickses {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
